@@ -9,6 +9,12 @@
  */
 
 // TODO: Write solution here
+let myAge = 17
+if myAge >= 13 {
+    print("Teenager")
+} else if myAge <= 19 {
+    print("Not a teenager")
+}
 
 
 /*:
@@ -19,4 +25,5 @@
  */
 
 // TODO: Write solution here
-
+let teenagerName = myAge >= 13 && myAge <= 19 ? "Chase" : "Not Me!"
+print(teenagerName)
