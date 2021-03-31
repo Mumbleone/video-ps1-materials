@@ -14,6 +14,11 @@
 var players = ["Alice", "Bob", "Dan", "Eli", "Frank"]
 
 // TODO: Write solution here
+players.count
+players.contains("Charles")
+players.first
+players.last
+
 
 
 /*:
@@ -26,6 +31,8 @@ var players = ["Alice", "Bob", "Dan", "Eli", "Frank"]
  */
 
 // TODO: Write solution here
+players.insert("Charles", at: 2)
+players += ["Gloria", "Hermione"]
 
 
 /*:
