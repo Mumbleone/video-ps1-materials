@@ -36,7 +36,8 @@ animalPets.insert("🦉 Owl")
  
  */
 
-
+let union = mythicalPets.union(animalPets)
+print(union)
 
 /*:
  
@@ -45,8 +46,8 @@ animalPets.insert("🦉 Owl")
  Use the `.intersection()` method to find out which pets exist in both `mythicalPets` and `animalPets`. Print the resulting set to the console.
  
  */
-
-
+let intersection = mythicalPets.intersection(animalPets)
+print(intersection)
 
 /*:
  
@@ -56,7 +57,7 @@ animalPets.insert("🦉 Owl")
  
  */
 
-
+let removedPet = animalPets.remove("🐶 Mango")
 /*:
  
  Challenge 4
@@ -66,5 +67,6 @@ animalPets.insert("🦉 Owl")
  Print the new `mythicalPets` set to the console to check your work.
  
  */
-
+mythicalPets.formUnion(animalPets)
+print(mythicalPets)
 
