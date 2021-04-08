@@ -14,7 +14,7 @@
  As part of the initialization, assign each of those keys a value that corresponds to your own personal information.
  
  */
-
+var  challengeOne: [String: String] = ["name" : "chase", "profession" : "Student", "country ": "USA" , "city" : "Lawrenceville"]
 
 /*:
  
@@ -27,8 +27,9 @@
  - Add a `state` key to the dictionary and assign it the value `Ohio`
  
  */
-
-
+challengeOne["country"] = "Japan"
+challengeOne["city"] = "Cleveland"
+challengeOne["state"] = "Ohio"
 /*:
  
  ## Challenge 3
@@ -39,7 +40,8 @@
  - Remove the `state` key-value pair with a different strategy.
  
  */
-
+challengeOne.removeValue(forKey: "city")
+challengeOne["state"] = nil
 
 
 /*:
@@ -49,7 +51,11 @@
  Iterate over the remaining keys and values in the dictionary and print them out.
  
  */
+print("---")
 
+for (key,value) in challengeOne {
+    print("This is the key: \(key). This is the value: \(value).")
+}
 
 
 
